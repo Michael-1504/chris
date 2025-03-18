@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --backgroundcolor_1: grey;
+    --textcolor_1:whitesmoke;
+    --menuecolor_1:#314103;
+
+    --freecolor_1:black;
+
+    --testcolor_1:red;
+    --testcolor_2:green;
+    --testcolor_3:blue;
+
+    --background-color:#314453;
+    --background-color-dark:#233848;
+    --accent-color:#41dce1;
+    --dark-grey: #555;
+    --light-grey:#999;
+    --light-color:#f9f9f9;
+    --BBC-bg:rgb(101, 123, 233);
+    --fo-size:fond-size(1.6rem);
+    --st-pad:padding(16px); 
+    /*--navbar-heigt:80px;*/
+
+}
+body{
+    background-color:var(--BBC-bg); 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    font-size: 70px;
+    color:var(--textcolor_1);
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    font-size: 35px;
+    color:var(--freecolor_1);
+    text-align: center;
+    margin-top: 20px;
+}
+h2_1{
+    font-size: 35px;
+    color:var(--textcolor_1);
+    text-align: right;
+    margin-top: 20px;
+}
+h3{
+    font-size: 17px;
+    color:var(--freecolor_1);
+    text-align: right;
+    margin: 10px;
+}
+
+.dat{
+    font-size: 20px;
+    margin: 20px;
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    border: 3px double var(--freecolor_1);
+    flex-direction: row;
+    height: 700px;
+    margin: 10px;
+    /*zu testzwecken mit grün eingefärbt
+    background-color: var(--testcolor_2);
+    */
+}
+/*.item{
+    zu testzwecken mit rot eingefärbt
+    background-color: var(--testcolor_1);
+*/
+    
+.item-1{
+    flex: 1;
+}
+.clapmenue{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.datimp{
+    text-align: right;
+}
+.menue-item{
+    list-style-type: none;
+    
+}
+.imglogo{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin-top: 0px;
+    margin-left: 620px;
+    /*align-items: center;*/
+    border-radius: 350px;   
+}
+.ulpreis{
+    margin: 20px;
+}
